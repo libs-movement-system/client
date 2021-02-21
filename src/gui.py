@@ -23,7 +23,7 @@ def go():
     Yvar.set(y)
     Zvar.set(z)
 
-    data = {"x": int(x), "y": int(y), "z": int(z)}
+    data = {"x": float(x), "y": float(y), "z": float(z)}
     client.send(data)
 
 
